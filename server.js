@@ -50,8 +50,8 @@ io.on('connection', (socket) => {
   console.log('a user connected');
 });
 
-http.listen(3000, () => {
-  console.log('listening on *:3000');
+http.listen(443, () => {
+  console.log('listening on *:443');
 });
 //app.listen(port, () => console.log('App listening at http://localhost:${port}'))
 
